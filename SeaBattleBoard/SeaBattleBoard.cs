@@ -27,7 +27,8 @@ namespace SeaBattleBoard {
 
             var width = (this.dgvBoard.ClientRectangle.Width - this.dgvBoard.RowHeadersWidth) / this.dgvBoard.ColumnCount;
             for (var i = 0; i < this.dgvBoard.ColumnCount; i++) {
-                this.dgvBoard.Columns[1].Width = width;
+                this.dgvBoard.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.NotSet;
+                this.dgvBoard.Columns[i].Width = width;
             }
 
             var height = (this.dgvBoard.ClientRectangle.Height - this.dgvBoard.ColumnHeadersHeight) / this.dgvBoard.RowCount;

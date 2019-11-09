@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBattleBoard", "SeaBattle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBattleGame", "SeaBattleGame\SeaBattleGame.csproj", "{CE83350B-40D1-49BB-BA2A-93DFA4C0715A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{C8BF9154-47BB-44E7-A179-1E1184DAE117}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CE83350B-40D1-49BB-BA2A-93DFA4C0715A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE83350B-40D1-49BB-BA2A-93DFA4C0715A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE83350B-40D1-49BB-BA2A-93DFA4C0715A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BF9154-47BB-44E7-A179-1E1184DAE117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BF9154-47BB-44E7-A179-1E1184DAE117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BF9154-47BB-44E7-A179-1E1184DAE117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BF9154-47BB-44E7-A179-1E1184DAE117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
